@@ -1,30 +1,224 @@
-
-
 /**
 Meyer's CSS Reset
 **/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /**
 PADDING
 MARGIN
+
+margin
+mr-s, mr-m, mr-l
+mt-s, mt-m, mt-l
+mb-s, mb-m, mb-l
+ml-s, ml-m, ml-l
+mx-s, mx-m, mx-l
+
+padding
+p1-s, p1-m, p1-l
+p2-s, p2-m, p2-l
+p3-s, p3-m, p3-l
+p4-s, p4-m, p4-l
+
+
 **/
+
+/* ALL AREA MARGIN */
+.mx-s {
+  margin: 5px;
+}
+.mx-m {
+  margin: 10px;
+}
+.mx-l {
+  margin: 15px;
+}
+
+/* MARGIN RIGHT */
+.mr-s {
+  margin-right: 5px;
+}
+.mr-m {
+  margin-right: 10px;
+}
+.mr-l {
+  margin-right: 15px;
+}
+
+/* MARGIN LEFT */
+.ml-s {
+  margin-left: 5px;
+}
+.ml-m {
+  margin-left: 10px;
+}
+.ml-l {
+  margin-left: 15px;
+}
+
+/* MARGIN TOP */
+.mt-s {
+  margin-top: 5px;
+}
+.mt-m {
+  margin-top: 10px;
+}
+.mt-l {
+  margin-top: 15px;
+}
+
+/* MARGIN BOTTOM */
+.mb-s {
+  margin-bottom: 5px;
+}
+.mb-m {
+  margin-bottom: 10px;
+}
+.mb-l {
+  margin-bottom: 15px;
+}
+
+/* PADDING
+____________________________________________________ */
+
+/* ALL AREA PADDING */
+.mx-s {
+  margin: 5px;
+}
+.mx-m {
+  margin: 10px;
+}
+.mx-l {
+  margin: 15px;
+}
+
+/* PADDING RIGHT */
+.pr-s {
+  padding-right: 5px;
+}
+.pr-m {
+  padding-right: 10px;
+}
+.pr-l {
+  padding-right: 15px;
+}
+
+/* PADDING LEFT */
+.pl-s {
+  padding-left: 5px;
+}
+.pl-m {
+  padding-left: 10px;
+}
+.pl-l {
+  padding-left: 15px;
+}
+
+/* PADDING TOP */
+.pt-s {
+  padding-top: 5px;
+}
+.pt-m {
+  padding-top: 10px;
+}
+.pt-l {
+  padding-top: 15px;
+}
+
+/* PADDING BOTTOM */
+.pb-s {
+  padding-bottom: 5px;
+}
+.pb-m {
+  padding-bottom: 10px;
+}
+.pb-l {
+  padding-bottom: 15px;
+}
